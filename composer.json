@@ -1,0 +1,27 @@
+{
+    "name": "soldatov/tester",
+    "description": "Minimal project for begin test app.",
+    "type": "project",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Anatoly Soldatov",
+            "email": "soldatov.anatoly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
